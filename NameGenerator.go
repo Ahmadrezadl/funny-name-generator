@@ -6,13 +6,13 @@ import (
 )
 
 var (
-	Words1 = [...]string{"اصغر", "صغرا", "علی", "حسن", "ممد", "کمال", "جک", "کامبیز", "عباس"}
+	Words1 = [...]string{"اصغر", "صغرا", "علی", "حسن", "ممد", "کمال", "جک", "کامبیز", "عباس", "فریدون"}
 	Words2 = [...]string{"سیبیل", "ممه", "پا", "مغز", "دست", "چشم", "شیکم", "مو", "انگشت", "کون"}
 	Words3 = [...]string{"قشنگ", "گنده", "کوچولو", "دست", "تیز", "طلایی", "سیاه", "کبابی"}
 )
 
 var (
-	FinglishWords1 = [...]string{"Asghar", "Soghra", "Ali", "Hasan", "Mamad", "Kamal", "Jack", "Kambiz", "Abbas"}
+	FinglishWords1 = [...]string{"Asghar", "Soghra", "Ali", "Hasan", "Mamad", "Kamal", "Jack", "Kambiz", "Abbas", "Fereydoon"}
 	FinglishWords2 = [...]string{"Sibil", "Mame", "Pa", "Maghz", "Dast", "Cheshm", "Shikam", "Moo", "Angosht", "Koon"}
 	FinglishWords3 = [...]string{"Ghashang", "Gonde", "Kocholo", "Dast", "Tiz", "Talaei", "Siah", "Kababi"}
 )
