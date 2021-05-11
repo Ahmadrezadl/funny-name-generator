@@ -8,13 +8,13 @@ import (
 var (
 	Words1 = [...]string{"اصغر", "صغرا", "علی", "حسن", "ممد", "کمال", "جک", "کامبیز", "عباس", "فریدون"}
 	Words2 = [...]string{"سیبیل", "ممه", "پا", "مغز", "دست", "چشم", "شیکم", "مو", "انگشت", "کون"}
-	Words3 = [...]string{"قشنگ", "گنده", "کوچولو", "دست", "تیز", "طلایی", "سیاه", "کبابی"}
+	Words3 = [...]string{"قشنگ", "گنده", "کوچولو", "تیز", "طلایی", "سیاه", "کبابی"}
 )
 
 var (
 	FinglishWords1 = [...]string{"Asghar", "Soghra", "Ali", "Hasan", "Mamad", "Kamal", "Jack", "Kambiz", "Abbas", "Fereydoon"}
 	FinglishWords2 = [...]string{"Sibil", "Mame", "Pa", "Maghz", "Dast", "Cheshm", "Shikam", "Moo", "Angosht", "Koon"}
-	FinglishWords3 = [...]string{"Ghashang", "Gonde", "Kocholo", "Dast", "Tiz", "Talaei", "Siah", "Kababi"}
+	FinglishWords3 = [...]string{"Ghashang", "Gonde", "Kocholo", "Tiz", "Talaei", "Siah", "Kababi"}
 )
 
 func Randomize() {
@@ -28,3 +28,4 @@ func PersianName() string {
 func FinglishName() string {
 	return FinglishWords1[rand.Intn(len(FinglishWords1))] + " " + FinglishWords2[rand.Intn(len(FinglishWords2))] + " " + FinglishWords3[rand.Intn(len(FinglishWords3))]
 }
+
