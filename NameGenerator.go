@@ -7,14 +7,14 @@ import (
 
 var (
 	Words1 = [...]string{"اصغر", "صغرا", "علی", "حسن", "ممد", "کمال", "جک", "کامبیز", "عباس", "فریدون"}
-	Words2 = [...]string{"سیبیل", "ممه", "پا", "مغز", "دست", "چشم", "شیکم", "مو", "انگشت", "کون"}
-	Words3 = [...]string{"قشنگ", "گنده", "کوچولو", "تیز", "طلایی", "سیاه", "کبابی"}
+	Words2 = [...]string{"سیبیل", "پا", "مغز", "دست", "چشم", "شیکم", "مو", "انگشت", "کون"}
+	Words3 = [...]string{"قشنگ", "گنده", "کوچولو", "طلایی", "سیاه", "کبابی"}
 )
 
 var (
 	FinglishWords1 = [...]string{"Asghar", "Soghra", "Ali", "Hasan", "Mamad", "Kamal", "Jack", "Kambiz", "Abbas", "Fereydoon"}
-	FinglishWords2 = [...]string{"Sibil", "Mame", "Pa", "Maghz", "Dast", "Cheshm", "Shikam", "Moo", "Angosht", "Koon"}
-	FinglishWords3 = [...]string{"Ghashang", "Gonde", "Kocholo", "Tiz", "Talaei", "Siah", "Kababi"}
+	FinglishWords2 = [...]string{"Sibil", "Pa", "Maghz", "Dast", "Cheshm", "Shikam", "Moo", "Angosht", "Koon"}
+	FinglishWords3 = [...]string{"Ghashang", "Gonde", "Kocholo", "Talaei", "Siah", "Kababi"}
 )
 
 func Randomize() {
