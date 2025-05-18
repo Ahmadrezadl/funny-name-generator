@@ -7,13 +7,13 @@ import (
 
 var (
 	Words1 = [...]string{"اصغر", "صغرا", "علی", "حسن", "ممد", "کمال", "جک", "کامبیز", "عباس", "فریدون"}
-	Words2 = [...]string{"سیبیل", "پا", "مغز", "دست", "چشم", "شیکم", "مو", "انگشت", "کون"}
+	Words2 = [...]string{"سیبیل", "پا", "مغز", "دست", "چشم", "شیکم", "مو", "انگشت", "لب"}
 	Words3 = [...]string{"قشنگ", "گنده", "کوچولو", "طلایی", "سیاه", "کبابی"}
 )
 
 var (
 	FinglishWords1 = [...]string{"Asghar", "Soghra", "Ali", "Hasan", "Mamad", "Kamal", "Jack", "Kambiz", "Abbas", "Fereydoon"}
-	FinglishWords2 = [...]string{"Sibil", "Pa", "Maghz", "Dast", "Cheshm", "Shikam", "Moo", "Angosht", "Koon"}
+	FinglishWords2 = [...]string{"Sibil", "Pa", "Maghz", "Dast", "Cheshm", "Shikam", "Moo", "Angosht", "Lab"}
 	FinglishWords3 = [...]string{"Ghashang", "Gonde", "Kocholo", "Talaei", "Siah", "Kababi"}
 )
 
